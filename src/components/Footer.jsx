@@ -45,19 +45,19 @@ const Footer = () => {
           <div className="flex flex-col gap-4 ">
             <h3 className="text-xl text-white font-md">Information</h3>
             <div className="flex flex-col gap-2 text-white text-sm ">
-              <Link to="#">Privacy Policy</Link>
-              <Link to="#">Refund Policy</Link>
-              <Link to="#">Shipping Policy</Link>
-              <Link to="#">Blogs</Link>
-              <Link to="#">Terms Of Service</Link>
+              <Link to="/privacy-policy">Privacy Policy</Link>
+              <Link to="/refund-policy">Refund Policy</Link>
+              <Link to="/shipping-policy">Shipping Policy</Link>
+              <Link to="/terms-conditions">Terms & Conditions</Link>
+              <Link to="/blogs">Blogs</Link>
             </div>
           </div>
           <div className="flex flex-col gap-4 ">
             <h3 className="text-xl text-white font-md">Acount</h3>
             <div className="flex flex-col gap-2 text-white text-sm ">
               <Link to="#">Search</Link>
-              <Link to="#">Contact</Link>
-              <Link to="#">About Us</Link>
+              <Link to="/contact">Contact</Link>
+              <Link to="/about">About Us</Link>
               <Link to="#">Size Chart</Link>
               <Link to="#">Faq</Link>
             </div>

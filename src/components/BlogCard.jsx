@@ -22,7 +22,7 @@ const BlogCard = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
         </p>
         <Link
-          to="#"
+          to="/blog/:id"
           className="py-2 px-4 mt-2 mb-2 bg-color-dgray  text-white text:sm rounded-[24px] hover:bg-slate-900 "
         >
           Read More

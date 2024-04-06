@@ -14,12 +14,12 @@ const Header = () => {
         <div className="">
           <div className="flex flex-row justify-between m-1">
             <div>
-              <p className="text-white ">
+              <p className="text-white ml-6 ">
                 Free Shipping Over $100 & Free Returns
               </p>
             </div>
             <div>
-              <p className="text-end text-white ">
+              <p className="text-end text-white mr-9 ">
                 Hotline:{" "}
                 <a
                   className="text-white"
